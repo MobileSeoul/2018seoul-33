@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#07A1F4"
+        android:id="@+id/view">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<Button-->
+                <!--android:layout_width="48dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:id="@+id/menuBack"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:background="@drawable/ic_keyboard_backspace_white_48dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20dp"
+                android:gravity="center_vertical|center|center_horizontal"
+                android:text="메뉴"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+
+        android:id="@+id/mapBtn"
+        android:layout_width="122dp"
+        android:layout_height="124dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="181dp"
+        android:background="@drawable/mylocation"/>
+
+    <Button
+        android:id="@+id/myPageBtn"
+        android:layout_width="125dp"
+        android:layout_height="124dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/mapBtn"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/schoolicon"/>
+
+    <Button
+        android:id="@+id/reviewBtn"
+        android:layout_width="122dp"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:background="@drawable/infoicon"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/spBtn"-->
+        <!--android:layout_width="185dp"-->
+        <!--android:layout_height="185dp"-->
+        <!--android:layout_alignLeft="@+id/myPageBtn"-->
+        <!--android:layout_below="@+id/mapBtn"-->
+        <!--android:background="@drawable/us1"-->
+        <!--/>-->
+
+
+</RelativeLayout>

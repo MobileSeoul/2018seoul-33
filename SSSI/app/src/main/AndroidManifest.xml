@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.mjw0617">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/schoolimage"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".RealMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MenuActivity"
+                  android:label="MenuActivity">
+        </activity>
+        <activity android:name=".MapActivity"
+                  android:label="MapActivity">
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="MainActivity">
+        </activity>
+
+        <!--<activity android:name=".list"-->
+                  <!--android:label="list">-->
+        <!--</activity>-->
+
+        <activity android:name=".info"
+                  android:label="info">
+        </activity>
+
+        <!--<activity android:name=".favorite">-->
+
+        <!--</activity>-->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCSUhsTkQQBDi6FoZErASFqvx052jzbiTo" />
+    </application>
+
+</manifest>

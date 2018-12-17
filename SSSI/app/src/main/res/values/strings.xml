@@ -1,0 +1,11 @@
+
+
+<resources>
+    <string name="app_name">서울 특수 학교</string>
+            <string name="infoname">서울 특수 학교 정보</string>
+   <string name="made">만든이 : 인덕대 SCSC특강 9조</string>
+<string name="content1">
+문지웅 (jw132792@naver,com)\n최서준 (happysj1006@naver.com)\n
+
+            </string>
+</resources>
